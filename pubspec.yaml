@@ -1,0 +1,28 @@
+name: flutter_notification
+description: Flutter Notification
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_local_notifications: 5.0.0+4
+  rxdart: ^0.27.0
+  http: ^0.13.3
+  path_provider: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
